@@ -139,7 +139,7 @@ if (galleryLightbox) {
 
   const buildPortee03Gallery = () => {
     const base = 'images/chatons/portee-03/';
-    const photoExts = ['jpg', 'jpg', 'jpg', 'jpg', 'jpg', 'jpg', 'png', 'png', 'png', 'png', 'png', 'png'];
+    const photoExts = ['jpg', 'jpg', 'jpg', 'jpg', 'jpg', 'jpg', 'jpg', 'jpg', 'jpg', 'jpg', 'jpg', 'jpg'];
     const media = photoExts.map((ext, idx) => {
       const p = String(idx + 1).padStart(2, '0');
       return {
