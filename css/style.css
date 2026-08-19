@@ -926,6 +926,22 @@ h1, h2, h3, h4 {
 }
 
 /* presence column */
+.contact-direct-email {
+  font-size: 0.95rem;
+  color: var(--color-white);
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+
+.contact-direct-email a {
+  color: var(--color-gold);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color var(--transition);
+}
+
+.contact-direct-email a:hover { color: var(--color-white); }
+
 .contact-presence-text {
   font-size: 0.92rem;
   line-height: 1.7;
